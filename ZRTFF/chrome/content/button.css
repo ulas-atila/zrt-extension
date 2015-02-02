@@ -1,0 +1,15 @@
+#ztv_button{ 
+	list-style-image: url("chrome://ztv/content/ztv_off_small.png");
+}
+
+#wrapper-ztv_button #ztv_button, #PanelUI-contents #ztv_button{
+	list-style-image: url("chrome://ztv/content/ztv_off.png");;
+}
+
+#ztv_button.liveon{ 
+	list-style-image: url("chrome://ztv/content/ztv_on_small.png");
+}
+
+#wrapper-ztv_button #ztv_button.liveon, #PanelUI-contents #ztv_button.liveon{
+	list-style-image: url("chrome://ztv/content/ztv_on.png");;
+}

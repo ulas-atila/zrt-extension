@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "ZRT",
+  "description": "Soyez au courant quand ZeratoR commence à streamer!",
+  "version": "1.0.10",
+
+  "background": {
+    "scripts": ["background.js"] 
+    },
+  "permissions": [
+    "https://api.twitch.tv/",
+    "notifications"
+  ],
+  "browser_action": {
+    "default_icon": "zrt_off.png"
+  }
+}
